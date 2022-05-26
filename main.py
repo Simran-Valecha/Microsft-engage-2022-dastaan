@@ -25,7 +25,7 @@ def create_similarity():
     return data,similarity
 
 
-def rcmd(m):
+def rcmd(m): 
     m = m.lower()
     try:
         data.head()
