@@ -1,0 +1,363 @@
+.movie {
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+}
+.movie-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.left{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.inline1{
+font-size: 88px !important;
+}
+.movie-content > div {
+    margin:20px;
+}
+
+.btn-block{
+	width: 15%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e4e0e0;
+}
+.topnav {
+	/* background-color: #333; */
+	overflow-x: hidden;
+	
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+	background-color: rgba(59, 28, 28, 0.242);
+	color: white;
+  }
+
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+	display: none;
+  }
+.AboutUs{
+	margin-top: 47%;
+	position: absolute;
+	background-color:#343a40;
+
+}
+#content {
+	/* background-image: url("../static/movie8.avif"); */
+	/* background-size: 1500*900; */
+	max-width: 100%;
+	
+	background-size: cover;
+	
+	
+	background-color: #16202a;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#details {
+	margin-left: 50px;
+}
+
+.footer {
+	color: #e4e0e0;
+	text-align:right;
+	position: fixed;
+ 	bottom: 20px;
+ 	right: 20px;
+ 	width: 100%;
+}
+
+h1 {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: #000000 0px 0px 13px;
+ }
+
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+#autoComplete {
+  background-position: 98% ;
+}
+
+#name {
+	color: white;
+	padding: 1px;
+}
+
+h6 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    #mcontent {
+      display: block;
+    }
+	.heading{
+		font-size: 60px;
+	}
+    .poster-lg {
+      display: none;
+    }
+    #details {
+		margin-left: 30px;
+	}
+    #loader {
+		display: none;
+		position: fixed;
+		z-index: 100;
+		left: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../static/loading-bar.gif");
+		 /* background-size: 40%;  */
+		background-position: 50% 50%;
+		background-color: black;
+		background-repeat: no-repeat;
+		-webkit-transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.2s ease-in-out;
+	}
+
+	#loader-text {
+		vertical-align: middle;
+		color:white;
+	}
+
+	#autoComplete {
+	  background-position: 97% ;
+	}
+
+	svg[data-toggle=tooltip] {
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.modal-body{
+		display: block;
+	}
+	.profile-pic {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.inline1{
+		display: block;
+	}
+	.inline2 h4 {
+		display: none;
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.inline1{
+		display: block;
+	}
+	.inline2 h4 {
+		display: none;
+		font-size: 10px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.modal-body {
+		display: flex;
+	}
+	.inline1{
+		display: block;
+	}
+	.inline2 h4 {
+		display: none;
+		font-size: 10px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+	.heading{
+		font-size: 30px;
+	}
+  }
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		overflow-x: hidden;
+	  position: absolute;
+	  /* right: 0;
+	  top: 0; */
+	  /* left:50%; */
+	  /* left:600px; */
+	}
+	.topnav.responsive a {
+		overflow-x: hidden;
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+@media only screen and (min-width: 651px) {
+  .poster-sm {
+    display: none;
+   }
+
+	#mcontent {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.heading{
+		font-size: 30px;
+	}
+
+	#loader {
+		display: none;
+		position: fixed;
+		z-index: 100;
+		left: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+		background-image: url("../static/loading-bar.gif");
+		/* width: 100%; */
+		 /* background-size: 20%;  */
+		background-position: 50% 50%;
+		background-color: black;
+		background-repeat: no-repeat;
+		-webkit-transition: background-image 0.2s ease-in-out;
+		transition: background-image 0.2s ease-in-out;
+	}
+
+	#loader-text {
+		vertical-align: middle;
+		color:white;
+	}
+
+}
+
+.poster{
+    -webkit-box-shadow: 0px 1px 15px 4px rgb(85, 83, 213);
+    -moz-box-shadow: 0px 1px 15px 4px rgb(45, 94, 200);
+    box-shadow: 0px 1px 15px 4px rgb(47, 31, 222);
+}
+
+.card:hover {
+	color:#343a40;
+	cursor: pointer;
+}
+
+.castcard:hover {
+    cursor: pointer;
+}
+
+.cast-img {
+	filter: brightness(100%);
+	-moz-transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+
+
+.cast-img:hover {
+	filter: brightness(50%);
+	-moz-transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+
+.fig {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: brightness(50%);
+	position: absolute;
+	bottom: 0px;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	opacity: 0;
+	-moz-transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+
+.fig:hover {
+	color: rgb(51, 58, 58);
+	opacity: 1;
+	backdrop-filter:br;
+	-moz-transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+}
+
+.card-btn {
+	border-radius: 20px;
+}
+
+.imghvr {
+	position: relative;
+}
+
+.table td {
+	background-color: #000000;
+    border-color: white;
+    border-style:solid;
+    border-width:1px;
+}
+
+.fail {
+	display: none;
+	color: white;
+}
