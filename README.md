@@ -12,6 +12,7 @@
   
 
 ## Table of Contents:
+* [ Concept ](#concept)
 * [ How to run the project? ](#how_to)
 * [ Features ](#features)
 * [ Tech Stack ](#technologystack)
@@ -21,6 +22,7 @@
 * [ Images ](#images)
 * [ Credits ](#credits)
 
+## <a name="concept"></a>Concept:
 
 
 ## <a name="how_to"></a>How to run the project?
@@ -52,6 +54,8 @@
 
 
 ## <a name="models"></a>Workflow:
+* ![workflow1](https://github.com/Simran-Valecha/dastaan-2022/blob/master/static/workflow1.png)
+* ![workflow2](https://github.com/Simran-Valecha/dastaan-2022/blob/master/static/workflow2.png)
 
  
  ## <a name="futureplans"></a>Future Plans:
@@ -61,16 +65,15 @@
 
 
   ## <a name="limitaions"></a>Limitations:
-* This website is tested only in Google Chrome and is compatible with it
-* Tested only on laptop and not on mobile phones
-
+* Tested only for American films. 
+* This website is tested only on Google Chrome and is compatible with it.
 
 
 
 ## <a name="images"></a>Images:
-* ![model1](https://github.com/Simran-Valecha/Microsoft-engage-2022/blob/main/static/model1.png)
-* ![model2](https://github.com/Simran-Valecha/Microsoft-engage-2022/blob/main/static/model2.png)
-* ![model3](https://github.com/Simran-Valecha/Microsoft-engage-2022/blob/main/static/model3.png)
+* ![model1](https://github.com/Simran-Valecha/dastaan-2022/blob/master/static/model1.png)
+* ![model2](https://github.com/Simran-Valecha/dastaan-2022/blob/master/static/model2.png)
+* ![model3](https://github.com/Simran-Valecha/dastaan-2022/blob/master/static/model3.png)
 
 
 ## <a name="credits"></a>Credits:
