@@ -66,7 +66,11 @@
 
 
 
+
 ## <a name="images"></a>Images:
+* ![model1](https://github.com/Simran-Valecha/Microsoft-engage-2022/blob/main/static/model1.png)
+* ![model2](https://github.com/Simran-Valecha/Microsoft-engage-2022/blob/main/static/model2.png)
+* ![model3](https://github.com/Simran-Valecha/Microsoft-engage-2022/blob/main/static/model3.png)
 
 
 ## <a name="credits"></a>Credits:
