@@ -9,13 +9,12 @@
 
 
 ## Demo Video Link:
-
+  https://drive.google.com/drive/folders/1CYe60EISbo3BZdVtXii8bPcQyT7yz9C4
 
 ## Website Link:
   https://dastaan-2022.herokuapp.com/
 
 ## Table of Contents:
-* [ Concept ](#concept)
 * [ How to run the project? ](#how_to)
 * [ Features ](#features)
 * [ Tech Stack ](#technologystack)
@@ -25,7 +24,6 @@
 * [ Images ](#images)
 * [ Credits ](#credits)
 
-## <a name="concept"></a>Concept:
 
 
 ## <a name="how_to"></a>How to run the project?
